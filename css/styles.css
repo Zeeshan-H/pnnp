@@ -271,7 +271,7 @@ body {
 
 .shape-3 {
     position: relative;
-    top: 250px;
+    top: 300px;
     left: 250px;
     float: right;
     z-index: 10;
@@ -280,6 +280,8 @@ body {
 /* */
 
 .img-shape-3 {
+    position: relative;
+    top: 60px;
     animation: 2s rotateLeft ease-in;
     animation-iteration-count: infinite;
 }
