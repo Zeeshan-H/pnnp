@@ -581,13 +581,18 @@ h4 {
     }
 
     .featured {
+        width: 100% !important;
         position: relative;
-        top: 150px !important;
+        top: 520px !important;
+        height: 120vh !important;
     }
 
     .featured-title {
         font-size: 20px !important;
         text-align: left !important;
+        position: absolute;
+        top: 0px !important;
+
     }
 
     .shape-3 {
