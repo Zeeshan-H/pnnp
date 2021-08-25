@@ -613,7 +613,7 @@ h4 {
     }
 
     .footer {
-        height: 340vh;
+        height: 360vh;
     }
 
     .news-text-title {
@@ -633,26 +633,28 @@ h4 {
         margin-bottom: 40px !important;
     }
 
-    .container-bottom {
-        width: 100% !important;
-    }
-
     .copyright-title {
-        width: 900% !important;
+        position: relative;
+        left: 2px !important;
         font-size: 12px !important;
     }
 
     .copy-rights-text {
         position: relative;
-        top: 120px !important;
-        left: 2px !important;
-        height: 10vh !important;
-        width: 2000px !important;
+        top: 100px !important;
+        text-indent: 10px !important;
+        left: 10px !important;
 
+    }
+
+    .copyright-container {
+        height: 100vh !important;
+        width: 100% !important;
     }
 
     .container-bottom {
         position: relative;
+        left: 0px !important;
         top: 800px !important;
     }
 
