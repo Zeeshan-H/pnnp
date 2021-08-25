@@ -14,7 +14,9 @@ body {
     background-size: cover;
     height: 115vh;
     width: 100%;
-    margin: auto;
+    /* margin: 0px; */
+    margin-left: -2px;
+    margin-top: -2px;
     /* border: 5px solid #000; */
 }
 
