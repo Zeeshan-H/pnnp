@@ -489,6 +489,11 @@ h4 {
         left: 40px !important;
     }
 
+    .header {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
     /* html, body {
         overflow-x: hidden !important;
     } */
