@@ -613,7 +613,9 @@ h4 {
     }
 
     .news-and-updates {
-        height: 80vh;
+        position: relative;
+        height: 80vh !important;
+        top: 300px !important;
     }
 
     .tiles {
@@ -625,6 +627,8 @@ h4 {
     }
 
     .footer {
+        position: relative;
+        top: 400px !important;
         height: 360vh;
     }
 
