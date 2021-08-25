@@ -13,19 +13,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 115vh;
-    /* width: 100%; */
+    width: 100%;
+    margin: auto;
     /* border: 5px solid #000; */
 }
 
 .navbar {
     display: flex;
-    height: 40vh;
-
+    height: 10vh;
+    width: 100%;
 }
 
 .logo-container {
-    /* background: #000; */
-    display: flex;
     flex: 1;
     position: relative;
     left: 50px;
@@ -40,7 +39,8 @@ body {
 
 .logo-text {
     position: relative;
-    top: 4px;
+    bottom: 25px;
+    left: 70px;
     color: #fff;
 }
 
@@ -62,7 +62,8 @@ body {
 
 .nav-right {
     position: relative;
-    right: 8px;
+    left: 50px;
+    flex: 1;
 }
 
 .nav-btn {
@@ -73,16 +74,33 @@ body {
     padding: 8px 20px;
 }
 
+
+
 .header-text {
     font-size: 80px;
-    margin-left: 30px;
     position: relative;
-    bottom: 40px;
+    left: 30px;
+    top: 20px;
     color: #fff;
+    width: fit-content;
+}
+
+.vertical-bar {
+    background: #fff;
+    height: 5px;
+    width: 300px;
+    transform: rotate(90deg);
+    position: relative;
+    top: 166px;
+    right: 155px;
 }
 
 .header-text-pink {
     color: pink;
+}
+
+html, body {
+    overflow-x: hidden;
 }
 
 .header-text-content {
@@ -91,9 +109,10 @@ body {
     margin-top: -20px; */
     position: relative;
     left: 35px;
-    bottom: 30px;
+    top: 30px;
     color: #fff;
-    width: 50%;
+    width: 80%;
+    height: 20vh;
 }
 
 .header-btn {
@@ -133,6 +152,7 @@ body {
 }
 
 .sponsor-icons {
+    display: flex;
     position: relative;
     left: 80px;
 }
@@ -214,7 +234,7 @@ body {
     position: relative;
     left: 60px;
     top: 1px;
-    width: 40%;
+    width: fit-content;
     font-size: small;
 }
 
@@ -361,7 +381,22 @@ body {
     width: 100%;
     height: 120vh;
     background: grey;
+    /* display: flex; */
+}
+
+.container-upper {
+    height: 60vh;
+    width: 100%;
+    margin: 10px;
+}
+
+.container-bottom{
     display: flex;
+    width: 90%;
+    height: 50vh;
+    position: relative;
+    left: 50px;
+    /* background: pink; */
 }
 
 
@@ -371,6 +406,7 @@ body {
     left: 10px;
     height: fit-content;
     width: 40%;
+    /* width: 100%; */
 }
 
 
@@ -389,22 +425,23 @@ h4 {
 
 .quick-links-container {
     display: flex;
+    height: 50vh;
+    width: 55%;
+    float: right;
     position: relative;
-    top: 40px;
-    left: 200px;
-    height: 60vh;
-    width: 100%;
+    bottom: 98px;
 }
 
 .quick-links {
     display: flex;
-    width: 100%;
-    justify-content: stretch;
+    width: 25%;
+    height: fit-content;
 }
 
 
 .footer-link {
     list-style-type: none;
+    height: fit-content;
 }
 
 .footer-link-item {
@@ -416,27 +453,19 @@ h4 {
     text-decoration: none;
 }
 
-.copy-rights-container {
-    position: relative;
-    top: 380px;
-    right: 10%;
-    height: 12vh;
+.copyright-title {
+    font-size: 15px;
     width: 100%;
-}
-
-.footer-text {
-    display: flex;
-    height: 34vh;
+    color: #fff;
     position: relative;
-    top: 600px;
-    right: 20%;
-    max-width: 90%;
-    line-height: 20px;
-
+    left: 40%;
 }
 
 .copy-rights-text {
     color: #fff;
+    position: relative;
+    top: 40px;
+    height: 20vh;
 }
 
 .footer-bottom {
@@ -446,5 +475,185 @@ h4 {
     height: 30vh;
     width: 50%;
     right: 90%;
+
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 360px) {
+
+    .logo-text {
+        position: relative;
+        left: 40px !important;
+    }
+
+    /* html, body {
+        overflow-x: hidden !important;
+    } */
+
+    .nav-btn {
+        display: none;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .header {
+        width: 100% !important;
+        height: 80vh !important;
+    }
+
+    .header-text {
+        font-size: 10px;
+    }
+
+    .vertical-bar {
+        display: none !important;
+    }
+
+    .header-text-content {
+        font-size: 10px;
+        position: relative;
+        left: 30px !important;
+    }
+
+    .sponsor-text {
+        font-size: 10px !important;
+    }
+
+    .main-content-title {
+        font-size: 20px;
+    }
+
+    .main-content-text {
+        font-size: 15px !important;
+    }
+
+    .sponsor-bar {
+        height: 45vh;
+        flex-direction: column !important;
+    }
+
+    .sponsor-icons {
+        display: flex;
+        flex-direction: column !important;
+        position: relative;
+        left: 50px !important;
+        top: 40px !important;
+    }
+
+    .cards-row-one {
+        display: flex;
+        flex-direction: column !important;
+        position: relative;
+        left: 25% !important;
+
+    }
+
+    .card{
+        display: flex;
+        width: 50% !important;
+        margin-bottom: 10px !important;
+    }
+
+    .cards-row-two {
+        flex-direction: column !important;
+        position: relative;
+        left: 25% !important;
+    }
+
+    .market-title {
+        font-size: 20px;
+        text-align: left !important;
+    }
+
+    .market-text {
+        height: 3vh !important;
+        width: 80% !important;
+    }
+
+    .featured {
+        position: relative;
+        top: 150px !important;
+    }
+
+    .featured-title {
+        font-size: 20px !important;
+        text-align: left !important;
+    }
+
+    .shape-3 {
+        display: none !important;
+    }
+
+    .form {
+        /* float: left !important; */
+        width: 100% !important;
+        z-index: 0;
+        position: relative;
+        left: 10px !important;
+        top: 150px !important;
+    }
+
+    .tiles-container {
+        flex-direction: column !important;
+    }
+
+    .news-and-updates {
+        height: 80vh;
+    }
+
+    .tiles {
+        position: relative;
+        top: 80px !important;
+        left: 10px !important;
+        width: 90% !important;
+        margin-bottom: 10px !important;
+    }
+
+    .footer {
+        height: 340vh;
+    }
+
+    .news-text-title {
+        font-size: 12px !important;
+    }
+
+    .quick-links-container {
+        position: relative;
+        top: 80px;
+        right: 150px;
+        flex-direction: column !important;
+        /* flex-direction: column !important; */
+    }
+
+    .quick-links {
+        width: 90% !important;
+        margin-bottom: 40px !important;
+    }
+
+    .container-bottom {
+        width: 100% !important;
+    }
+
+    .copyright-title {
+        width: 900% !important;
+        font-size: 12px !important;
+    }
+
+    .copy-rights-text {
+        position: relative;
+        top: 120px !important;
+        left: 2px !important;
+        height: 10vh !important;
+        width: 2000px !important;
+
+    }
+
+    .container-bottom {
+        position: relative;
+        top: 800px !important;
+    }
 
 }
