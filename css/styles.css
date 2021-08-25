@@ -393,7 +393,7 @@ html, body {
 .container-bottom{
     display: flex;
     width: 90%;
-    height: 50vh;
+    height: 40vh;
     position: relative;
     left: 50px;
     /* background: pink; */
@@ -465,7 +465,7 @@ h4 {
     color: #fff;
     position: relative;
     top: 40px;
-    height: 20vh;
+    /* height: 20vh; */
 }
 
 .footer-bottom {
