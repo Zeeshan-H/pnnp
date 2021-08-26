@@ -69,10 +69,10 @@ body {
 }
 
 .nav-btn {
-    background: red;
+    background: #cc313d;
     color: #fff;
     cursor: pointer;
-    border: 1px solid red;
+    border: 1px solid #cc313d;
     padding: 8px 20px;
 }
 
@@ -118,12 +118,12 @@ html, body {
 }
 
 .header-btn {
-    background: red;
+    background: #cc313d;
     padding: 10px 30px;
     color: #fff;
     margin-top: 10px;
     cursor: pointer;
-    border: 1px solid red;
+    border: 1px solid #cc313d;
 }
 
 /* Main Content */
@@ -173,9 +173,9 @@ html, body {
 }
 
 .main-content-btn {
-    background: red;
+    background: #cc313d;
     color: #fff;
-    border: 1px solid red;
+    border: 1px solid #cc313d;
     padding: 10px 30px;
     cursor: pointer;
     font-size: medium;
