@@ -499,10 +499,6 @@ h4 {
         display: none;
     }
 
-    .nav-items {
-        display: none;
-    }
-
     .header {
         width: 100% !important;
         height: 80vh !important;
@@ -680,4 +676,11 @@ h4 {
         top: 590px !important;
         height: 120vh !important;
     }
+}
+
+@media screen and (max-width:980px) {
+    .nav-items {
+        display: none;
+    }
+
 }
