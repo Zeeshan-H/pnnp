@@ -672,3 +672,12 @@ h4 {
     }
 
 }
+
+@media screen and (max-width: 320px) {
+    .featured {
+        width: 100% !important;
+        position: relative;
+        top: 590px !important;
+        height: 120vh !important;
+    }
+}
