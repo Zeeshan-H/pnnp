@@ -571,6 +571,7 @@ h4 {
     .market-text {
         height: 3vh !important;
         width: 80% !important;
+        margin-top: 10px !important;
     }
 
     .featured {
@@ -597,8 +598,8 @@ h4 {
         width: 100% !important;
         z-index: 0;
         position: relative;
-        left: 5px !important;
-        top: 150px !important;
+        left: 1px !important;
+        top: 120px !important;
     }
 
     .tiles-container {
@@ -666,6 +667,200 @@ h4 {
         left: 0px !important;
         top: 800px !important;
     }
+
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+        .logo-text {
+            position: relative;
+            left: 40px !important;
+        }
+    
+        .header {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+    
+        /* html, body {
+            overflow-x: hidden !important;
+        } */
+    
+        .nav-btn {
+            display: none;
+        }
+    
+        .header {
+            width: 100% !important;
+            height: 80vh !important;
+        }
+    
+        .header-text {
+            font-size: 10px;
+        }
+    
+        .vertical-bar {
+            display: none !important;
+        }
+    
+        .header-text-content {
+            font-size: 10px;
+            position: relative;
+            left: 30px !important;
+        }
+    
+        .sponsor-text {
+            font-size: 10px !important;
+        }
+    
+        .main-content-title {
+            font-size: 20px;
+        }
+    
+        .main-content-text {
+            font-size: 15px !important;
+        }
+    
+        .sponsor-bar {
+            height: 45vh;
+            flex-direction: column !important;
+        }
+    
+        .sponsor-icons {
+            display: flex;
+            flex-direction: column !important;
+            position: relative;
+            left: 1px !important;
+            top: 40px !important;
+        }
+    
+        .cards-row-one {
+            display: flex;
+            flex-direction: column !important;
+            position: relative;
+            left: 25% !important;
+    
+        }
+    
+        .card{
+            display: flex;
+            width: 50% !important;
+            margin-bottom: 10px !important;
+        }
+    
+        .cards-row-two {
+            flex-direction: column !important;
+            position: relative;
+            left: 25% !important;
+        }
+    
+        .market-title {
+            font-size: 20px;
+            text-align: left !important;
+        }
+    
+        .market-text {
+            height: 3vh !important;
+            width: 80% !important;
+            margin-top: 10px !important;
+        }
+    
+        .featured {
+            width: 100% !important;
+            position: relative;
+            top: 520px !important;
+            height: 120vh !important;
+        }
+    
+        .featured-title {
+            font-size: 20px !important;
+            text-align: left !important;
+            position: absolute;
+            top: 0px !important;
+    
+        }
+    
+        .shape-3 {
+            display: none !important;
+        }
+    
+        .form {
+            /* float: left !important; */
+            width: 100% !important;
+            z-index: 0;
+            position: relative;
+            left: 1px !important;
+            top: 150px !important;
+        }
+    
+        .tiles-container {
+            flex-direction: column !important;
+        }
+    
+        .news-and-updates {
+            position: relative;
+            height: 80vh !important;
+            top: 300px !important;
+        }
+    
+        .tiles {
+            position: relative;
+            top: 80px !important;
+            left: 10px !important;
+            width: 90% !important;
+            margin-bottom: 10px !important;
+        }
+    
+        .footer {
+            position: relative;
+            top: 400px !important;
+            height: 360vh;
+        }
+    
+        .news-text-title {
+            font-size: 12px !important;
+        }
+    
+        .quick-links-container {
+            position: relative;
+            top: 80px;
+            right: 150px;
+            flex-direction: column !important;
+            /* flex-direction: column !important; */
+        }
+    
+        .quick-links {
+            width: 90% !important;
+            margin-bottom: 40px !important;
+        }
+    
+        .copyright-title {
+            position: relative;
+            left: 2px !important;
+            font-size: 12px !important;
+        }
+    
+        .copy-rights-text {
+            position: relative;
+            top: 100px !important;
+            text-indent: 10px !important;
+            left: 10px !important;
+    
+        }
+    
+        .copyright-container {
+            height: 100vh !important;
+            width: 100% !important;
+        }
+    
+        .container-bottom {
+            position: relative;
+            left: 0px !important;
+            top: 800px !important;
+        }
+    
 
 }
 
